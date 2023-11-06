@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <div id="score">Рахунок: 0</div>
+    <button onclick="nextQuestion()">Наступне завдання</button>
+    <div id="question"></div>
+    <div>
+        <label>
+            <input type="radio" name="answer" value="1">
+            <span id="option1"></span>
+        </label><br>
+        <label>
+            <input type="radio" name="answer" value="2">
+            <span id="option2"></span>
+        </label><br>
+        <label>
+            <input type="radio" name="answer" value="3">
+            <span id="option3"></span>
+        </label>
+    </div>
+    <button onclick="checkAnswer()">Перевірити</button>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

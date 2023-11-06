@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form, table {
+    margin-bottom: 10px;
+}
+
+input, button {
+    margin-bottom: 5px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+#totalAvg {
+    font-weight: bold;
+}
